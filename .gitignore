@@ -1,0 +1,34 @@
+# dependencies
+/frontend/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/frontend/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Go binary files
+/backend/*.exe
+/backend/*.exe~
+/backend/*.dll
+/backend/*.so
+/backend/*.dylib
+/backend/tmp
+/backend/database.db
+
+# Go dependencies
+/backend/vendor/
